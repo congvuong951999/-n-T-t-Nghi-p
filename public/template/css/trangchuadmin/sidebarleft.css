@@ -1,0 +1,103 @@
+h1 {
+    margin: 0;
+}
+.p44 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.p44{
+    position: relative;
+    width: 250px;
+    text-align: left;
+    font-size: 16px;
+}
+.p44 ul{
+    margin: 0px;
+    padding: 0;
+    position: relative;
+    list-style: none;
+}
+.p44 ul li{
+    position: relative;
+}
+.p44 ul li a{
+    display: block;
+    position: relative;
+    color: white;
+    padding: 17px;
+    text-decoration: none;
+    font-weight: bold;
+     margin-left: 20px;
+     font-family: "Poppins", Arial, sans-serif;
+}
+.p44 ul li a:link, .p44 ul li a:visited{
+    color: white;
+    border-bottom: 1px solid #ccc9c9;
+}
+.p44 ul li a:hover{
+    /*background: #FFCC00;*/
+    color: #FFCC00;
+}
+.p44 ul li ul{
+    position: absolute;
+     left: -5000px;
+     top: 0;
+     width: 230px;
+     visibility: hidden;
+     box-shadow: 2px 2px 5px gray;
+}
+.p44 ul li:hover>ul{
+    visibility: visible;
+    left: 100%;
+}
+.p44 ul li ul li{
+    display: list-item;
+    float: none;
+}
+.p44 ul li ul li ul{
+    top: -1;
+    left: 100%;
+}
+.p44 ul li li:hover>a{
+    background: :#00aecd;
+}
+.p44 ul li li:hover>ul{
+    left: 100%;
+}
+.p44 ul li ul li a{
+    padding: 17px;
+    margin: 0;
+    background: #1d1919;
+    border-right: none;
+    border-top-width:0 ;
+}
+.p44 ul li>a{
+    padding-right: 25px;
+}
+.p44 ul li>a:only-child{
+    padding-right: 10px;
+}
+.p44 ul li li>a:after{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border: 5px solid transparent;
+    border-left-color: #fff;
+    top: 40%;
+    right: 8px;
+}
+.p44 ul li>a:only-child:after{
+    display: none;
+}
+.dashboard p{
+    text-align:center;
+    margin-top:150px;
+    font-size: 45px;
+    color:rgb(36 120 186 / 1); 
+    text-shadow: 5px 5px violet;
+}

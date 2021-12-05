@@ -1,0 +1,96 @@
+.header2{
+	width: 95%;
+	height: 70px;
+	margin: auto;
+	
+	background: #6f869c;
+	text-decoration: none;
+    font-weight: bold;
+     font-family: "Poppins", Arial, sans-serif;
+     float: left;
+     display: block;
+     margin-top: 30px;
+     border-radius: 20px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.header2 a{
+	float: left;
+	text-decoration: none;
+}
+#logo{
+    font-family: 'Roboto Bold';
+    font-weight: normal;
+    color: black;
+    font-size: 30px;
+    padding: 18px 70px;
+    font-weight: bold;
+     font-family: "Poppins", Arial, sans-serif;
+}
+.box{
+
+	width: 300px;
+
+	height: 30px;
+
+	background-color: white;
+
+	border-radius: 30px;
+
+	display: flex;
+
+	align-items: center;
+
+	padding: 5px;
+float: left;
+    margin-top: 12px;
+}
+
+.box > i {
+
+	font-size: 20px;
+
+	color: #777;
+
+}
+
+.box > input{
+
+	flex: 1;
+
+	height: 20px;
+
+	border: none;
+
+	outline: none;
+
+	font-size: 18px;
+
+	padding-left: 10px;
+
+
+}
+.dangxuat{
+	float: right;
+	margin-top: 25px;
+	margin-right: 70px;
+	font-family: 'Roboto Bold';
+    font-weight: normal;
+    color: black;
+    font-weight: bold;
+     font-family: "Poppins", Arial, sans-serif;
+     font-size: 20px;
+}
+.clear{
+	clear: both	;
+}
+.main-content-wp{
+	width: 100%;
+	height: auto;
+}
+.clear{
+	clear: both	;
+}
